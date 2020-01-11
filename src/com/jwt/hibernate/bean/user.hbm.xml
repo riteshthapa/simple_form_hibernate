@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.jwt.hibernate.bean.User" table="user">
+		<id name="id" type="int"> 
+			<generator class="increment" />
+		</id>
+		<property column="PRICE" name="itemNumber" type="java.lang.String" />
+		<property column="ITEM_NUMBER" name="price" type="java.lang.String" />
+		<property column="FIRST_NAME" name="lastName" type="java.lang.String" />
+		<property column="LAST_NAME" name="method" type="java.lang.String" />
+		<property column="SHIPPING_ADDRESS" name="firstName" type="string" />
+		<property column="METHOD" name="cardNumber" type="java.lang.String" />
+		<property column="CARD_NUMBER" name="address" type="java.lang.String" />
+		
+	</class>
+</hibernate-mapping>
